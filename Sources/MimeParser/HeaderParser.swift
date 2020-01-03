@@ -27,6 +27,11 @@ class ContentTypeParser {
     }
 }
 
+public extension ContentType {
+    init(header contentType: String) throws {
+        self = try ContentTypeParser().parse(contentType)
+    }
+}
 // MARK: -
 
 class ContentTransferEncodingFieldParser {
