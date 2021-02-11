@@ -14,6 +14,8 @@
 		0C9F212221EE6395009DCA21 /* MeetingRequestWithZeroLengthPart.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C9F211F21EE61D6009DCA21 /* MeetingRequestWithZeroLengthPart.txt */; };
 		4472876B20CF23A500CD7412 /* EmailWithApplicationAttachment.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4472876A20CF23A500CD7412 /* EmailWithApplicationAttachment.txt */; };
 		4472876C20CF23A500CD7412 /* EmailWithApplicationAttachment.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4472876A20CF23A500CD7412 /* EmailWithApplicationAttachment.txt */; };
+		6933C97825C18A80001195AA /* 20210118-1359.eml in Resources */ = {isa = PBXBuildFile; fileRef = 6933C97725C18A80001195AA /* 20210118-1359.eml */; };
+		6933C97925C18A80001195AA /* 20210118-1359.eml in Resources */ = {isa = PBXBuildFile; fileRef = 6933C97725C18A80001195AA /* 20210118-1359.eml */; };
 		813C0B4920D18A11007CF9B5 /* EmailParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C0B4820D18A11007CF9B5 /* EmailParsingTests.swift */; };
 		813C0B4A20D18A11007CF9B5 /* EmailParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C0B4820D18A11007CF9B5 /* EmailParsingTests.swift */; };
 		8145B1C720D187440019E405 /* MimeParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145B1C620D187440019E405 /* MimeParsingTests.swift */; };
@@ -78,6 +80,7 @@
 		08ABE7752063D04A00F945CF /* SpecialCharsBoundary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SpecialCharsBoundary.txt; sourceTree = "<group>"; };
 		0C9F211F21EE61D6009DCA21 /* MeetingRequestWithZeroLengthPart.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MeetingRequestWithZeroLengthPart.txt; sourceTree = "<group>"; };
 		4472876A20CF23A500CD7412 /* EmailWithApplicationAttachment.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmailWithApplicationAttachment.txt; sourceTree = "<group>"; };
+		6933C97725C18A80001195AA /* 20210118-1359.eml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20210118-1359.eml"; sourceTree = "<group>"; };
 		813C0B4820D18A11007CF9B5 /* EmailParsingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailParsingTests.swift; sourceTree = "<group>"; };
 		8145B1C620D187440019E405 /* MimeParsingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeParsingTests.swift; sourceTree = "<group>"; };
 		816F218A1FD733EA00D67378 /* MimeParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MimeParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +219,7 @@
 		81E3FCAB1FDF1E9900C00F25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6933C97725C18A80001195AA /* 20210118-1359.eml */,
 				4472876A20CF23A500CD7412 /* EmailWithApplicationAttachment.txt */,
 				81E3FCAC1FDF1EB600C00F25 /* Info.plist */,
 				0C9F211F21EE61D6009DCA21 /* MeetingRequestWithZeroLengthPart.txt */,
@@ -391,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08ABE7772063D04A00F945CF /* SpecialCharsBoundary.txt in Resources */,
+				6933C97925C18A80001195AA /* 20210118-1359.eml in Resources */,
 				0C9F212221EE6395009DCA21 /* MeetingRequestWithZeroLengthPart.txt in Resources */,
 				81E3FCBC1FDF1EBC00C00F25 /* SimpleMessageWithBinaryAttachment.txt in Resources */,
 				81E3FCBA1FDF1EBC00C00F25 /* QuotedPrintableMessage.txt in Resources */,
@@ -414,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08ABE7762063D04A00F945CF /* SpecialCharsBoundary.txt in Resources */,
+				6933C97825C18A80001195AA /* 20210118-1359.eml in Resources */,
 				0C9F212121EE6394009DCA21 /* MeetingRequestWithZeroLengthPart.txt in Resources */,
 				81E3FCB61FDF1EBB00C00F25 /* SimpleMessageWithBinaryAttachment.txt in Resources */,
 				81E3FCB41FDF1EBB00C00F25 /* QuotedPrintableMessage.txt in Resources */,
